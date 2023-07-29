@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: sudo apt-get update;sudo apt-get install lib* -y;npm install;npm start
+          command: sudo apt-get update;sudo apt-get install libn* -y;npm install;npm start
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
